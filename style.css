@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding : 0;
+    border: none;
+}
+
+body{
+    text-align: center;
+    background-color: #edf2f4;  
+}
+
+.container{
+    height: 100vh;
+    background-color: #edf2f4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    background-color: #2b2d42;
+    height: 62vmin;
+    width: 63vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;    
+}
+
+.box{
+    font-size: 10vmin;
+    color: #0d1321;
+    background-color: #edf2f4;
+    height: 20vmin;
+    width: 20vmin;
+}
+
+#box1{
+    border-bottom-right-radius: 1vmin;
+}
+#box2{
+    border-bottom-right-radius: 1vmin;
+    border-bottom-left-radius: 1vmin;
+}
+#box3{
+    border-bottom-left-radius: 1vmin;
+}
+#box4{
+    border-bottom-right-radius: 1vmin;
+    border-top-right-radius: 1vmin;
+}
+#box5{
+    border-radius: 1vmin;
+}
+#box6{
+    border-bottom-left-radius: 1vmin;
+    border-top-left-radius: 1vmin;
+}
+#box7{
+    border-top-right-radius: 1vmin;
+}
+#box8{
+    border-top-right-radius: 1vmin;
+    border-top-left-radius: 1vmin;
+}
+#box9{
+    border-top-left-radius: 1vmin;
+}
+
+#reset{
+    font-size: 1.7vmin;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    height: 4vmin;
+    width: 14vmin;
+    border-radius: 1vmin;
+    margin-top: 8vmin;
+}
+
+#newGame{
+    font-size: 1.7vmin;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    height: 4vmin;
+    width: 14vmin;
+    border-radius: 1vmin;
+    margin-top: 8vmin;
+}
+
+#msg{
+    color: #2b2d42;
+    font-size: 8vmin;
+}
+
+.hide{
+    display: none;
+}
+
+.boxChange{
+    font-size: 12vmin;
+    color: #9a031e;
+}
+
+.draw{
+    background: radial-gradient( #2b2d42 90%, #edf2f4);
+    font-size: 8vmin;
+    color: #edf2f4;
+    position: relative;
+    top: -38vmin;
+    opacity: 70%;
+    height: 12vmin;
+    width: 100vmin;
+    padding-top: 3vmin;
+    padding-bottom: 0;
+    
+    animation: fadeInAnimation ease 2s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+
+          100% {
+              opacity: 80%;
+          }
+      }
+   
+
+@media only screen and (max-width: 800px) {
+    .game{
+        background-color: #2b2d42;
+        height: 90vmin;
+        width: 89vmin;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5vmin;    
+    }
+    
+    .box{
+        font-size: 16vmin;
+        color: #0d1321;
+        background-color: #edf2f4;
+        height: 29vmin;
+        width: 28vmin;
+    }
+
+    .boxChange{
+        font-size: 18vmin;
+        color: #9a031e;
+    }
+
+    #reset{
+        font-size: 2.6vmin;
+        background-color: #2b2d42;
+        color: #edf2f4;
+        height: 7vmin;
+        width: 20vmin;
+        border-radius: 1vmin;
+        margin-top: 8vmin;
+    }
+    
+    #newGame{
+        font-size: 2.6vmin;
+        background-color: #2b2d42;
+        color: #edf2f4;
+        height: 7vmin;
+        width: 20vmin;
+        border-radius: 1vmin;
+        margin-top: 8vmin;
+    }
+
+    .draw{
+        background: radial-gradient( #2b2d42 90%, #edf2f4);
+        font-size: 8vmin;
+        color: #edf2f4;
+        position: relative;
+        top: -51.6vmin;
+        opacity: 70%;
+        height: 12vmin;
+        width: 100vmin;
+        padding-top: 3vmin;
+        padding-bottom: 0;
+        
+        animation: fadeInAnimation ease 2s;
+              animation-iteration-count: 1;
+              animation-fill-mode: forwards;
+          }
+          @keyframes fadeInAnimation {
+              0% {
+                  opacity: 0;
+              }
+  
+              100% {
+                  opacity: 80%;
+              }
+          }
+       
+  }
+  
+  
+  
+
+  
+
+
+
